@@ -1,0 +1,1 @@
+<?php	require_once("basicshapeabstract.class.php");	class Circle extends BasicShapeAbstract{				function __construct($itemId){			$this->id = $itemId;			$this->shapeType = "circle";		}				public function setCoordinates($cx, $cy){			$this->centerX = $cx;			$this->centerY = $cy;		}				public function setRadius($radius){			$this->radius = $radius;		}			}?>
